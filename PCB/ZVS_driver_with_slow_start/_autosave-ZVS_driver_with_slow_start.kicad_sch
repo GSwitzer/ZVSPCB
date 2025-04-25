@@ -2063,6 +2063,12 @@
 		(uuid "503f3a13-64b5-4dc8-95ee-7aa57a830e7c")
 	)
 	(junction
+		(at 48.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c17aee-a3cb-47ea-aba7-8e58e6106bb8")
+	)
+	(junction
 		(at 173.99 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2205,6 +2211,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5176813-c7af-461a-ac59-a5f4f1f7c84e")
+	)
+	(junction
+		(at 48.26 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8807e6e-b9ba-49a6-92ec-d4b59dfa7a0e")
 	)
 	(no_connect
 		(at 67.31 95.25)
@@ -2474,7 +2486,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 88.9) (xy 119.38 105.41)
+			(xy 119.38 88.9) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2501,6 +2513,16 @@
 			(type default)
 		)
 		(uuid "4723f870-3398-4a88-a8bf-2e837ecdc4e1")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47688b86-7bd7-4660-a513-8b0acfd87554")
 	)
 	(wire
 		(pts
@@ -2644,6 +2666,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 113.03) (xy 48.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b0f9e2-89d5-4694-959d-c4607b93e600")
+	)
+	(wire
+		(pts
 			(xy 43.18 93.98) (xy 43.18 104.14)
 		)
 		(stroke
@@ -2711,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "88e03fff-91d8-48df-8105-14170fa081cd")
+	)
+	(wire
+		(pts
+			(xy 48.26 113.03) (xy 52.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d306607-ccc6-4e6b-b396-80d1fbe12820")
 	)
 	(wire
 		(pts
@@ -3004,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 113.03) (xy 52.07 113.03)
+			(xy 45.72 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3144,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 102.87) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0d1f5e-5fa3-4558-acc7-6fbb3f84ac6d")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 113.03 113.03)
 		)
 		(stroke
@@ -3154,7 +3206,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 85.09 100.33)
+			(xy 48.26 100.33) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5940367-fd9c-4af7-825f-0627e6fa5c4b")
+	)
+	(wire
+		(pts
+			(xy 68.58 100.33) (xy 85.09 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3174,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 100.33) (xy 44.45 100.33)
+			(xy 44.45 100.33) (xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3346,6 +3408,75 @@
 			(project "ZVS_driver_with_slow_start"
 				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "021c03a9-d409-4ffb-9f6d-dc72816c6c15")
+		(property "Reference" "C3"
+			(at 48.768 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 48.26 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 49.2252 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ba4c522-634e-4701-bc55-c09f876da3ea")
+		)
+		(pin "1"
+			(uuid "ea293dd1-6f2d-4a05-a0da-64ceac4d3a40")
+		)
+		(instances
+			(project "ZVS_driver_with_slow_start"
+				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3892,7 +4023,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 73.66 105.41 90)
+		(at 66.04 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3900,7 +4031,7 @@
 		(dnp no)
 		(uuid "39455547-ab86-452b-b9e8-0f94940b3c73")
 		(property "Reference" "J3"
-			(at 73.66 106.934 90)
+			(at 66.04 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4039,7 @@
 			)
 		)
 		(property "Value" "ON_switch"
-			(at 73.152 109.22 90)
+			(at 65.532 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +4047,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 73.66 105.41 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 105.41 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +4065,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 73.66 105.41 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,6 +4217,75 @@
 			(project "ZVS_driver_with_slow_start"
 				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4db073c5-b1ae-4099-b53e-b835d108de57")
+		(property "Reference" "R12"
+			(at 114.554 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 114.3 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 117.602 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c2a0414-2d87-40df-bda8-383529eb825a")
+		)
+		(pin "2"
+			(uuid "06bfca69-fc17-4b9f-bda5-c7f47194ab7a")
+		)
+		(instances
+			(project "ZVS_driver_with_slow_start"
+				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
+					(reference "R12")
 					(unit 1)
 				)
 			)
