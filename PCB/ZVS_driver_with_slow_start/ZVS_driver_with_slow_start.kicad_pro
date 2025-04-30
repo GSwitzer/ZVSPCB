@@ -488,7 +488,7 @@
       },
       {
         "name": "Power40A",
-        "pcb_color": "rgb(255, 0, 30)",
+        "pcb_color": "rgb(118, 255, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.0,

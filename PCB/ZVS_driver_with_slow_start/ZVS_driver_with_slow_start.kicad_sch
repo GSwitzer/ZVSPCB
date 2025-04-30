@@ -2834,16 +2834,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 43.18 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d63574-ffa1-4295-90cb-b80e1d27d201")
-	)
-	(wire
-		(pts
 			(xy 158.75 62.23) (xy 226.06 62.23)
 		)
 		(stroke
@@ -2854,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 81.28) (xy 43.18 91.44)
+			(xy 43.18 81.28) (xy 43.18 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3629,7 +3619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 231.902 82.55 90)
 			(effects
 				(font
@@ -4514,7 +4504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.832 116.84 90)
 			(effects
 				(font
@@ -4739,7 +4729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 220.218 82.55 90)
 			(effects
 				(font
@@ -4878,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 170.18 103.632 90)
 			(effects
 				(font
@@ -5238,7 +5228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 179.832 109.22 90)
 			(effects
 				(font
@@ -5685,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.192 97.79 90)
 			(effects
 				(font
@@ -5754,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 168.91 118.872 90)
 			(effects
 				(font
@@ -6136,73 +6126,6 @@
 			(project ""
 				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 38.1 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7ca9e73-38e7-4a87-951b-2a6a12961f80")
-		(property "Reference" "J2"
-			(at 36.576 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_Switch"
-			(at 33.02 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 38.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e5909c6-b33b-4583-b192-cbfb19eabf0c")
-		)
-		(pin "2"
-			(uuid "e3e36ee5-70e9-4afa-bab0-08d2b75a65f5")
-		)
-		(instances
-			(project "ZVS_driver_with_slow_start"
-				(path "/c49e841c-fad0-4812-b9c2-9ea62c8990ee"
-					(reference "J2")
 					(unit 1)
 				)
 			)
